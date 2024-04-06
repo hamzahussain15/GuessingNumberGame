@@ -19,10 +19,13 @@ const asnwers = await inquirer.prompt([
 }  
 else {
     console.log("Alas! You have guessed a wrong number");
-    console.log("Better luck next time"); 
+    console.log("Better luck next time");
+    console.log("TRY AGAIN"); 
 }
 
 
 console.log(randomNumber);
 
+console.log("The End");
+console.log("Thankyou for Playing")
 
